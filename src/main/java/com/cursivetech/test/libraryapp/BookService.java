@@ -16,26 +16,30 @@ public class BookService {
 		
 		// Book 1
 		book = new Book();
-		book.setIsbn(123);
+		book.setIsbn("123");
 		book.setTitle("Learn Java");
 		// Set Book date to 5th Nov 2020
+		book.setDate("5th nov 2021");
 		// book.setReleaseDate();
+		book.setReleaseDate("6th nov 2022");
 		this.books.add(book);
 		
 		// Book 2
 		book = new Book();
-		book.setIsbn(123);
+		book.setIsbn("124");
 		book.setTitle("Learn Angular");
 		// Set Book date to 2rd oct 2012
-		// book.setReleaseDate();
+		book.setDate(" 2rd oct 2012");
+		book.setReleaseDate("3rd oct 2014");
 		this.books.add(book);
 		
 		// Book 3
 		book = new Book();
-		book.setIsbn(123);
+		book.setIsbn("125");
 		book.setTitle("Learn Spring");
 		// Set Book date to 21st Nov 2021
-		// book.setReleaseDate();
+		book.setDate("21st Nov 2021");
+		 book.setReleaseDate("22st Nov 2022");
 		this.books.add(book);
 		
 		System.out.println(this.books.size() + " Books in Library");
